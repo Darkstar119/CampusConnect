@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<style>
+form {
+  width: 300px;
+  border: 25px solid black;
+  padding: 150px;
+  margin: 1s50px;
+}
+</style>
+<form>
+<h1>Lost and found things</h1>
+    <p>Please fill in this form if you have lost anything or found.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required><br></br>
+    <label for="mob-no"><b>Mobile no</b></label>
+    <input type="number" placeholder="Enter Mobile no" name="mob-no" required><br></br> 
+    <input type="radio" name="things" value="lost" checked> Lost Things<br></br>
+   <input type="radio" name="things" value="found"> Found Things<br></br>
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit"><br><br>
+   <button type="submit" class="submitbtn">Submit</button>
+   </form>
+</head>
+</body>
+</html>
